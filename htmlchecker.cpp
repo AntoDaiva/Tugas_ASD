@@ -80,7 +80,7 @@ bool htmlcheck(string filename){
 }
 
 int main(){
-    string file = "html.html";
+    string file = "html.html";//nama file html yang ingin diakses
     bool validity = htmlcheck(file);
 
     if(validity)
