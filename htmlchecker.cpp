@@ -5,7 +5,7 @@
 
 using namespace std;
 
-string stringify(string filename){
+string stringify(string filename){//fungsi mengubah file menjadi satu string panjang
     fstream thefile;//setup untuk membaca file html nya
     thefile.open(filename, ios::in);
     char ch;
@@ -21,7 +21,7 @@ string stringify(string filename){
     return doc;
 }
 
-bool htmlcheck(string filename){
+bool htmlcheck(string filename){//fungsi mengecek validitas syntax tags pada file html
     string doc = stringify(filename);
     
     string tag_name = "";
