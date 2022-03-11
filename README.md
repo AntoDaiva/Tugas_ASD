@@ -1,2 +1,2 @@
 # Tugas_ASD
-Kumpulan tugas analisi struktur data
+Kumpulan tugas analisis struktur data
